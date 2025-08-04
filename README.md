@@ -77,7 +77,7 @@ Construct cumulative total return series by reinvesting dividends on payment dat
 import yfinance as yf  
 import pandas as pd  
 
-def get_total_return(ticker, start="1999-01-01", end="2024-12-31"):  
+def get_total_return(ticker, start="1999-01-01", end="2025-08-01"):  
     data = yf.download(ticker, start=start, end=end, progress=False)  
     # Adjusted Close may reflect splits/dividends; verify or explicitly reconstruct reinvested dividends.  
     data = data[['Adj Close', 'Dividends']].copy()  
