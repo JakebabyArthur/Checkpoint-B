@@ -63,7 +63,7 @@ Measuring alpha and beta relative to a broad benchmark (e.g., S&P 500 total retu
 - Supplementary: Optional cross-checks or gap-filling via QuantConnect APIs.
 
 #### 2.2 Time Horizon  
-January 1, 1999 to December 31, 2024. This range captures major regime events: dot-com bust, 2007–2008 financial crisis, European debt crisis, COVID-19 shock and recovery.
+January 1, 1999 to Augest 1, 2025. This range captures major regime events: dot-com bust, 2007–2008 financial crisis, European debt crisis, COVID-19 shock and recovery.
 
 #### 2.3 Frequency and Aggregation  
 Base frequency: daily.  
