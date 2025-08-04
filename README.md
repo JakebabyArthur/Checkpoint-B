@@ -83,3 +83,41 @@ def get_total_return(ticker, start="1999-01-01", end="2025-08-01"):
     data = data[['Adj Close', 'Dividends']].copy()  
     # Placeholder: build total return assuming reinvestment at next available price.  
     return data  
+
+## 3. Methodological Justification
+
+### 3.1 Core Strategy
+Select and hold a concentrated set of fundamentally strong AI/cloud/infrastructure equities with dividend reinvestment. Broad-market exposure provides ballast and a benchmark for comparison.
+
+### 3.2 Risk Gate Using Trend Information
+Apply a conservative filter: defer inclusion or review any asset whose rolling six-month total return has declined, to reduce catching falling knives while maintaining low turnover.
+
+### 3.3 Scenario Testing via Monte Carlo
+Generate synthetic 25-year return trajectories that preserve empirical characteristics (e.g., volatility, autocorrelation) to stress-test robustness, quantify uncertainty, and produce distributional outcome ranges beyond the single historical path.
+
+### 3.4 Backtesting Framework
+- **Historical backtest:** Execute the buy-and-hold dividend-reinvested portfolio from 1999 forward, tracking cumulative and benchmark-relative performance.  
+- **Walk-forward (future extension):** Periodically reassess risk gate and holdings without look-ahead bias.  
+- **Monte Carlo overlay:** Simulate alternative market sequences (e.g., via block bootstrap of log returns or residual resampling) to evaluate performance under varied regimes.
+
+## 4. Performance Evaluation Plan
+
+### 4.1 Metrics
+- **Total return:** Cumulative growth including reinvested dividends.  
+- **Alpha:** Excess return above benchmark.  
+- **Beta:** Systematic exposure to market movements.  
+- **Sharpe ratio:** Risk-adjusted performance.  
+- **Drawdown analysis:** Maximum drawdown to capture downside risk.  
+- **Distributional outcomes:** From Monte Carlo, report statistics such as median and 5th/95th percentiles.
+
+### 4.2 Fees
+- **Management fee:** Modeled between 1%–4% annually as drag on gross returns.  
+- **Performance fee (future):** Optional share of excess returns (e.g., 5%–25% of alpha) above a hurdle.  
+Evaluate net investor outcomes under varying fee scenarios to communicate realistic ROI expectations.
+
+## 5. Summary of Checkpoint Deliverables
+- A coherent, focused investment philosophy: long-term fundamental growth with dividend reinvestment and a lightweight trend-based risk gate.  
+- Literature foundation in buy-and-hold investing, portfolio theory, total return accounting, and cautious trend signal usage.  
+- Public market data plan covering 1999–2024 with benchmark selection and total return construction.  
+- Methodological outline: core portfolio, risk gating, Monte Carlo uncertainty testing, and backtesting design.  
+- Performance evaluation framework incorporating alpha/beta, risk-adjusted metrics, drawdowns, and fee-adjusted outcomes.
