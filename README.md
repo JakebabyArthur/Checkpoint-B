@@ -38,19 +38,19 @@ Portfolio Composition (Core equity sleeve, long-only, fundamental growth with di
 - ASML – Semiconductor equipment critical to the AI supply chain.
 - TSM – Semiconductor foundry backbone for infrastructure.
 - NOW – Enterprise workflow automation with growing AI integration.
--Benchmark: SPY (proxy for S&P 500 total return for comparison).
--Allocate $10,000 equally across the 10 core names ⇒ $1,000 per stock.
-Fractional shares (approximate):
--MSFT: 1.91 shares
--NVDA: 5.76 shares
--GOOGL: 5.29 shares
--AMZN: 4.66 shares
--META: 1.33 shares
--ADBE: 2.87 shares
--CRM: 3.99 shares
--ASML: 1.45 shares
--TSM: 4.25 shares
--NOW: 1.09 shares
+- Benchmark: SPY (proxy for S&P 500 total return for comparison).
+- Allocate $10,000 equally across the 10 core names ⇒ $1,000 per stock.
+- Fractional shares (approximate):
+- MSFT: 1.91 shares
+- NVDA: 5.76 shares
+- GOOGL: 5.29 shares
+- AMZN: 4.66 shares
+- META: 1.33 shares
+- ADBE: 2.87 shares
+- CRM: 3.99 shares
+- ASML: 1.45 shares
+- TSM: 4.25 shares
+- NOW: 1.09 shares
 
 #### Fundamental Selection Criteria
 1. Profitability and free-cash-flow generation.  
