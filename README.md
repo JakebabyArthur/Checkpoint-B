@@ -83,7 +83,7 @@ def get_total_return(ticker, start="1999-01-01", end="2025-08-01"):
     data = data[['Adj Close', 'Dividends']].copy()  
     # Placeholder: build total return assuming reinvestment at next available price.  
     return data  
-
+```
 ## 3. Methodological Justification
 
 ### 3.1 Core Strategy
